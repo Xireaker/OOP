@@ -4,6 +4,19 @@ public class Employee {
     String jobTitle;
     int salary;
 
+    Employee(String firstName, String secondName){
+        this.firstName = firstName;
+        this.secondName = secondName;
+        jobTitle = "";
+        salary = 0;
+    }
+
+    Employee(String firstName, String secondName, String jobTitle, int salary){
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
+    }
     public String getFirstName() {
         return firstName;
     }
