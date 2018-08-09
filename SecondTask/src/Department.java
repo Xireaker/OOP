@@ -5,8 +5,8 @@ public class Department {
 
     Department(String name){
         this.name = name;
-        employees = new Employee[8];
         size = 8;
+        employees = new Employee[size];
     }
     Department(String name, int size){
         this.name = name;
