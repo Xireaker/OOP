@@ -18,7 +18,7 @@ public class Employee {
         this.salary = salary;
     }
     public String getFirstName() {
-        return firstName;
+        return this.firstName;
     }
 
     public void setFirstName(String firstName) {
@@ -26,7 +26,7 @@ public class Employee {
     }
 
     public String getSecondName() {
-        return secondName;
+        return this.secondName;
     }
 
     public void setSecondName(String secondName) {
@@ -34,7 +34,7 @@ public class Employee {
     }
 
     public String getJobTitle() {
-        return jobTitle;
+        return this.jobTitle;
     }
 
     public void setJobTitle(String jobTitle) {
@@ -42,7 +42,7 @@ public class Employee {
     }
 
     public int getSalary() {
-        return salary;
+        return this.salary;
     }
 
     public void setSalary(int salary) {
